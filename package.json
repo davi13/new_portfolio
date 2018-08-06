@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "portfolio responsive web site",
   "main": "index.js",
+  "homepage": "http://davi13.github.io/new_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Daviel Frias",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
