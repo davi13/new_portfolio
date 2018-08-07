@@ -113,6 +113,11 @@ main {
             @include easeOut;
         }
     }
+    .item {
+        span {
+            color: #66dbf9;
+        }
+    }
 }
 
 //Contact Page
@@ -142,7 +147,7 @@ main {
 //Button Styles
 .btn {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.7rem 1rem;
     border: 0;
     margin-bottom: 0.3rem;
     &:hover {
