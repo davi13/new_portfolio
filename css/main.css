@@ -279,6 +279,30 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
+@media screen and (max-width: 700px) {
+  main#home h1 {
+    margin-top: 10vh; }
+  .projects {
+    grid-template-columns: 1fr; }
+  .menu .nav-link {
+    font-size: 20px; }
+  ul.menu-nav,
+  div.menu-branding {
+    min-height: 32vh; }
+  .boxes div {
+    font-size: 1rem; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 3rem; }
+  .about-info .bio {
+    grid-area: bio;
+    font-size: 1rem; }
+  .job h6 {
+    font-size: 0.90rem; }
+  .job p {
+    font-size: 0.80rem; } }
+
 @media screen and (max-width: 500px) {
   .projects {
     grid-template-columns: 1fr; }
