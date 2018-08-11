@@ -280,8 +280,6 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
-  main#home {
-    margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
@@ -292,4 +290,8 @@ main {
     font-size: 3rem; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .job h6 {
+    font-size: 0.90rem; }
+  .job p {
+    font-size: 0.80rem; } }
