@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/portrait.jpg);
+      background: url(../img/img-5.jpg);
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -98,7 +98,7 @@ body {
   color: #FFFFFF;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 0;
   line-height: 1.5; }
   body#bg-img {
@@ -161,7 +161,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -204,7 +204,7 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px solid #FFFFFF;
+    border: 3px solid #ffffff;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
@@ -226,7 +226,7 @@ main {
 
 .btn-dark {
   background: black;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .btn-light {
   background: #c4c4c4;
