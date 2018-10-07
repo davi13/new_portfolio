@@ -55,7 +55,8 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/portrait.jpg);
+      background: url(../img/portrait2.jpg);
+      background-size: cover;
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -98,7 +99,7 @@ body {
   color: #FFFFFF;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 0;
   line-height: 1.5; }
   body#bg-img {
@@ -161,7 +162,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -204,7 +205,7 @@ main {
   margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
-    border: 3px solid #FFFFFF;
+    border: 3px solid #ffffff;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
@@ -226,7 +227,7 @@ main {
 
 .btn-dark {
   background: black;
-  color: #FFFFFF; }
+  color: #ffffff; }
 
 .btn-light {
   background: #c4c4c4;
@@ -270,18 +271,40 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
+      background: url("../img/img-6.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) {
-  main#home {
+@media screen and (max-width: 700px) {
+  main#home h1 {
     margin-top: 10vh; }
+  .projects {
+    grid-template-columns: 1fr; }
+  .menu .nav-link {
+    font-size: 20px; }
+  ul.menu-nav,
+  div.menu-branding {
+    min-height: 32vh; }
+  .boxes div {
+    font-size: 1rem; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 3rem; }
+  .about-info .bio {
+    grid-area: bio;
+    font-size: 1rem; }
+  .job h6 {
+    font-size: 0.9rem; }
+  .job p {
+    font-size: 0.8rem; } }
+
+@media screen and (max-width: 500px) {
   .projects {
     grid-template-columns: 1fr; }
   .boxes div {
@@ -292,4 +315,8 @@ main {
     font-size: 3rem; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  .job h6 {
+    font-size: 0.9rem; }
+  .job p {
+    font-size: 0.8rem; } }
