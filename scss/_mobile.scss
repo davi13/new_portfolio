@@ -40,7 +40,8 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0);
     .portrait {
-      background: url("../img/img-6.jpg");
+      /*I just update the image from main menu to appear in mobile @media*/
+      background: url("../dist/img/portrait_small2.jpg");
       width: 150px;
       height: 150px;
     }
